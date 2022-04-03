@@ -1,0 +1,122 @@
+@media screen and (max-width: 481px) {
+
+
+    #main, #footer {
+        font-size: 30px;
+    }
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
+body {
+    color: white;
+    background: url(images/bg.png) no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+/*
+h2, h1 {
+    font-weight: normal;
+}
+*/
+#bgvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#header {
+    position: sticky;
+    border-radius: 15px;
+    margin: 0 auto;
+    text-align: center;
+    width: 940px;
+    background: rgba(34, 34, 34, 0.5);
+    -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, .3);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, .3);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .3);
+}
+
+/*
+#links {
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  width:940px;
+  background: rgba(28, 28, 28, 0.4);
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+  box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+*/
+
+
+#main {
+    position: sticky;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 940px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background: rgba(28, 28, 28, 0.6);
+    -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+}
+
+#footer {
+    position: sticky;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    width: 940px;
+    padding: 1px;
+    background: rgba(28, 28, 28, 0.5);
+    -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .5);
+}
+
+#warn {
+    text-align: center;
+    color: grey;
+}
+
+#online {
+    text-align: center;
+}
+
+#onlinetable {
+    align-content: left;
+    width: 600px;
+    padding: 5px;
+    text-align: left;
+    /*border: 2px solid rgba(255, 255, 255, 0.6);*/
+
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.column {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    white-space: nowrap;
+}
