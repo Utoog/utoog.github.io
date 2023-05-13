@@ -1,6 +1,5 @@
 @media screen and (max-width: 481px) {
 
-
     #main, #footer {
         font-size: 30px;
     }
@@ -19,7 +18,8 @@ a:hover {
 
 body {
     color: white;
-    background: url(images/bg.png) no-repeat center center fixed;
+    /*background: url(images/bg.png) no-repeat center center fixed;*/
+    background-color: #212121;
     background-size: cover;
     font-family: Arial, sans-serif;
     font-weight: normal;
